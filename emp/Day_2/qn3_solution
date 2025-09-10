@@ -1,0 +1,13 @@
+sentence = input("Sentence:")
+sentence_list = sentence.split()
+sentence_tuple = tuple(string.upper() for string in sentence_list)
+
+
+file_name = "sentence.txt"
+with open(file_name,'w') as writer:
+    writer.write(f'list: {sentence_list}\n')
+    writer.write(f'tuple: {sentence_tuple}\n')
+with open(file_name,'r') as reader:
+    list_line = reader.readline()
+    tuple_line = reader.readline()
+    
