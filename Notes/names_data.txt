@@ -1,2 +1,2 @@
-List: ['kalyan', 'nithin', 'pavan']
-Tuple: ('kalyan', 'nithin', 'pavan')
+List: ['doe', 'john', 'nithin']
+Tuple: ('doe', 'john', 'nithin')
