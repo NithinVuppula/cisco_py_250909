@@ -1,2 +1,0 @@
-list: ['my', 'name', 'is', 'nitin']
-tuple: ('MY', 'NAME', 'IS', 'NITIN')
