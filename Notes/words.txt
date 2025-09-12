@@ -1,2 +1,2 @@
-List: ['hi', 'all']
-Tuple: ('hi', 'all')
+List: ['Hello', 'World']
+Tuple: ('Hello', 'World')

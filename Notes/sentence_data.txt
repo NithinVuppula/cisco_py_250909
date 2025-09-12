@@ -1,2 +1,2 @@
-List: ['hi', 'am', 'nithin']
-Tuple: ['HI', 'AM', 'NITHIN']
+List: ['I', 'Am', 'Nithin']
+Tuple: ['I', 'AM', 'NITHIN']
