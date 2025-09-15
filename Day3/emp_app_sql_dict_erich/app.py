@@ -1,4 +1,4 @@
-import repo_sql_dict as repo
+from db import repo_sql_dict as repo
 
 def menu():
     message = '''
