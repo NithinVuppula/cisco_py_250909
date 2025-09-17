@@ -4,7 +4,7 @@ from .emailer import send_email_background
 from .config import Config
 from .exceptions import ValidationError
 
-bp = Blueprint("api", __name__)
+bp = Blueprint("bms", __name__)
 
 
 @bp.route("/accounts", methods=["POST"])

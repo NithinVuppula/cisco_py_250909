@@ -17,7 +17,7 @@ def create_app(config: Config = None):
     init_db(app, config.SQLALCHEMY_DATABASE_URI)
 
     # register blueprints
-    app.register_blueprint(api_bp, url_prefix="/api")
+    app.register_blueprint(api_bp, url_prefix="/bms")
 
     # centralized exception handler
     @app.errorhandler(AppError)
